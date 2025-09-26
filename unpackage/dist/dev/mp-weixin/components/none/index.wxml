@@ -1,0 +1,1 @@
+<block wx:if="{{!isLoading}}"><view class="empty-content data-v-4e8d5536" style="{{(customStyle)}}"><view class="empty-icon data-v-4e8d5536"><image class="image data-v-4e8d5536" src="/static/empty.png" mode="widthFix"></image></view><view class="tips data-v-4e8d5536">{{tips}}</view><slot name="slot"></slot></view></block>

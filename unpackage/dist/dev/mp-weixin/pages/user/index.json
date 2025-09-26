@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "会员中心",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "popup": "/pages/user/components/Popup"
+  }
+}

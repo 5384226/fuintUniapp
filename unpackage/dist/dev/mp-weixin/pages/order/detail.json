@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#00acac",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "shortcut": "/components/shortcut/index"
+  }
+}

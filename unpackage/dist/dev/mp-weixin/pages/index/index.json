@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#00acac",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "location": "/components/page/location/index",
+    "search": "/components/search/index",
+    "banner": "/components/page/banner/index",
+    "nav-bar": "/components/page/navBar/index",
+    "blank": "/components/page/blank/index",
+    "goods": "/components/page/goods/index",
+    "empty": "/components/empty/index"
+  }
+}

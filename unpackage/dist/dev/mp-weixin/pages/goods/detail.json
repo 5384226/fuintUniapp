@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "shortcut": "/components/shortcut/index",
+    "slide-image": "/pages/goods/components/SlideImage",
+    "sku-popup": "/pages/goods/components/SkuPopup"
+  }
+}

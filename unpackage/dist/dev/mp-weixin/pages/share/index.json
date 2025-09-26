@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "邀请有礼",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body"
+  }
+}

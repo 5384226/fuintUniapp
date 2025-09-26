@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "会员登录",
+  "usingComponents": {
+    "main": "/pages/login/components/main",
+    "mp-weixin": "/pages/login/components/mp-weixin"
+  }
+}

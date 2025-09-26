@@ -1,0 +1,1 @@
+<coupon-popup vue-id="6c5e8e6b-1" value="{{value}}" couponInfo="{{couponInfo}}" storeRule="{{storeRule}}" border-radius="20" maskCloseAble="{{true}}" data-event-opts="{{[['^input',[['onChangeValue']]],['^open',[['openPopup']]],['^close',[['closePopup']]]]}}" bind:input="__e" bind:open="__e" bind:close="__e" class="data-v-aeaf9c0a" bind:__l="__l"></coupon-popup>

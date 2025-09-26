@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "weixin-privacy": "/pages/login/components/wx-privacy"
+  }
+}

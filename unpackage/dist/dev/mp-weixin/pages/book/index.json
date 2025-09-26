@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "预约项目",
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body"
+  }
+}

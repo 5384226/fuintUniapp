@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: 'iconfont';
+
+    src: url('https://at.alicdn.com/t/font_2180051_21huv31g6dq.woff2?t=1625469481487') format('woff2'),
+        url('https://at.alicdn.com/t/font_2180051_21huv31g6dq.woff?t=1625469481487') format('woff'),
+        url('https://at.alicdn.com/t/font_2180051_21huv31g6dq.ttf?t=1625469481487') format('truetype');
+}
+.iconfont.data-v-c193ff38 {
+    font-family: "iconfont" !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-deletenumber.data-v-c193ff38:before {
+    content: "\e666";
+}
+.numView.data-v-c193ff38 {
+    position: fixed;
+    bottom: 0rpx;
+    width: 100%;
+}
+.numBtn.data-v-c193ff38 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20rpx;
+    border: 0rpx solid #ffffff;
+}
+.behaviorCss.data-v-c193ff38 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 0rpx;
+    border: 0rpx solid #E0E0E0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 30rpx;
+}
+.behaviorCommonCss.data-v-c193ff38 {
+    background-color: #efefef !important;
+    -webkit-transform: translate(1rpx, 1rpx);
+            transform: translate(1rpx, 1rpx);
+}
+.numLayout.data-v-c193ff38 {
+    display: flex;
+}
+.numLayout2.data-v-c193ff38 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boderSy.data-v-c193ff38 {
+    width: 2rpx;
+    background-color: #efefef;
+}
+.opBtn1.data-v-c193ff38 {
+    background-color: #f29100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 30rpx;
+    text-align: center;
+}
+.numClickCss.data-v-c193ff38 {
+    background-color: #efefef;
+    color: #FFFFFF;
+}
+.opBtn1x.data-v-c193ff38 {
+    background-color: #ffd28b;
+    display: flex;
+    color: #9fa0a0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    font-weight: 400;
+    font-size: 30rpx;
+    text-align: center;
+}
+.opBtn2.data-v-c193ff38 {
+    background-color: #0090ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 30rpx;
+    text-align: center;
+}
+.opBtn2x.data-v-c193ff38 {
+    background-color: #7fcff4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    font-weight: 400;
+    font-size: 30rpx;
+    text-align: center;
+    color: #9fa0a0;
+}
+.customStyle.data-v-c193ff38 {
+    color: 'red'
+}
+
