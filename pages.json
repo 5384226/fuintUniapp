@@ -187,13 +187,13 @@
     {
       "path": "pages/address/index",
       "style": {
-        "navigationBarTitleText": "收货地址"
+        "navigationBarTitleText": "绑定门店管理"
       }
     },
     {
       "path": "pages/address/create",
       "style": {
-        "navigationBarTitleText": "新增收货地址"
+        "navigationBarTitleText": "绑定门店"
       }
     },
     {

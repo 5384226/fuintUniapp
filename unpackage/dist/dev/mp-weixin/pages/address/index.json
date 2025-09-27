@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "收货地址",
+  "navigationBarTitleText": "绑定门店管理",
   "usingComponents": {
     "empty": "/components/empty/index"
   }

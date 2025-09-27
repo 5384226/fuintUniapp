@@ -68,12 +68,12 @@
         </view>
       </view>
     </view>
-    <empty v-if="!list.length" :isLoading="isLoading" tips="暂无收货地址哦.." />
+    <empty v-if="!list.length" :isLoading="isLoading" tips="暂未绑定任何门店.." />
 
     <!-- 底部操作按钮 - 根据绑定状态控制显示 -->
     <view class="footer-fixed" v-if="showAddButton">
       <view class="btn-wrapper">
-        <view class="btn-item btn-item-main" @click="handleCreate()">添加新地址</view>
+        <view class="btn-item btn-item-main" @click="handleCreate()">绑定门店</view>
       </view>
     </view>
   </view>
@@ -125,7 +125,7 @@ export default {
     getPageData() {
       const app = this
       app.isLoading = true
-      Promise.all([app.getAddressList(), app.getStoreBindInfo()])
+      Promise.all([app.getStoreBindInfo()])
         .then(() => {
           // 列表排序把默认收货地址放到最前
           app.onReorder()
@@ -135,18 +135,6 @@ export default {
         .finally(() => app.isLoading = false)
     },
 
-    // 获取收货地址列表
-    getAddressList() {
-      const app = this
-      return new Promise((resolve, reject) => {
-        AddressApi.list()
-          .then(result => {
-            app.list = result.data.list
-            resolve(result)
-          })
-          .catch(err => reject(err))
-      })
-    },
 
     // 获取店铺绑定信息
     getStoreBindInfo() {
@@ -155,7 +143,10 @@ export default {
         StoreBindApi.getStore()
           .then(result => {
             console.log('店铺绑定信息:', result);
-            app.storeBindInfo = result.data
+            if (result.data.length > 0) {
+              app.storeBindInfo = result.data
+            }
+            
             resolve(result)
           })
           .catch(err => {
@@ -180,7 +171,7 @@ export default {
       const app = this
       // 根据业务逻辑判断是否显示新增按钮
       // 这里假设只有已绑定店铺的用户才能添加地址
-      app.showAddButton = app.storeBindInfo && app.storeBindInfo.status == 2
+      app.showAddButton = app.storeBindInfo == null || app.storeBindInfo.status == 2
 
       console.log('店铺绑定状态:', app.storeBindInfo);
       console.log('是否显示新增按钮:', app.showAddButton);
@@ -233,20 +224,6 @@ export default {
       this.$navTo('pages/address/update', { addressId })
     },
 
-    /**
-     * 删除收货地址
-     * @param {int} addressId 收货地址ID
-     */
-    handleRemove(addressId) {
-      const app = this
-      uni.showModal({
-        title: "提示",
-        content: "您确定要删除当前收货地址吗?",
-        success({ confirm }) {
-          confirm && app.onRemove(addressId)
-        }
-      });
-    },
 
     /**
      * 确认删除收货地址

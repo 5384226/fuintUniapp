@@ -43,31 +43,7 @@
       </view>
     </view>
 
-    <!--会员升级 start-->
-    <view class="member-update">
-      <view class="update-title">
-        <text>会员升级</text>
-      </view>
-      <scroll-view scroll-x>
-        <view class="recharge">
-          <view class="recharge-item" :class="current == index ? 'recharge-item-active' : ''"
-            v-for="(item, index) in memberGrade" :key="index" :style="{ marginLeft: !index ? '30rpx' : '' }"
-            @click="onShowPopup(index)">
-            <view class="recharge-tag">
-              <text class="recharge-tag-text" v-if="parseInt(item.validDay) > 0">{{ item.validDay }}天有效期</text>
-              <text class="recharge-tag-text" v-else>永久有效期</text>
-            </view>
-            <text class="recharge-item-duration">{{ item.name }}</text>
-            <view class="recharge-item-price">
-              <text class="rmb">￥</text>
-              <text class="recharge-item-price-text">{{ item.catchValue }}</text>
-            </view>
-            <text class="recharge-item-des" v-if="item.discount > 0">买单{{ item.discount }}折</text>
-            <text class="recharge-item-des" v-if="item.speedPoint > 0">积分翻{{ item.speedPoint }}倍</text>
-          </view>
-        </view>
-      </scroll-view>
-    </view>
+
     <!-- 弹窗 -->
     <Popup v-if="!isLoading" v-model="showPopup" @onPaySuccess="getPageData" :memberGrade="curGrade" />
     <!--会员升级 end-->
@@ -83,35 +59,6 @@
       </view>
     </view>
 
-    <!-- 我的资产 -->
-    <view class="my-asset">
-      <view class="asset-left flex-box dis-flex flex-x-center">
-        <view class="asset-left-item" @click="onTargetMyCoupon('C')">
-          <view class="item-value dis-flex flex-x-center">
-            <text>{{ isLogin ? assets.coupon : '0' }}</text>
-          </view>
-          <view class="item-name dis-flex flex-x-center">
-            <text>优惠券</text>
-          </view>
-        </view>
-        <view class="asset-left-item" @click="onTargetMyCoupon('P')">
-          <view class="item-value dis-flex flex-x-center">
-            <text>{{ isLogin ? assets.prestore : '0' }}</text>
-          </view>
-          <view class="item-name dis-flex flex-x-center">
-            <text>储值卡</text>
-          </view>
-        </view>
-        <view class="asset-left-item" @click="onTargetMyCoupon('T')">
-          <view class="item-value dis-flex flex-x-center">
-            <text>{{ isLogin ? assets.timer : '0' }}</text>
-          </view>
-          <view class="item-name dis-flex flex-x-center">
-            <text>计次卡</text>
-          </view>
-        </view>
-      </view>
-    </view>
 
     <!-- 我的服务 -->
     <view class="my-service">
@@ -175,17 +122,17 @@ const orderNavbar = [
  * id: 标识; name: 标题名称; icon: 图标; type 类型(link和button); url: 跳转的链接
  */
 const service = [
-  { id: 'myCoupon', name: '卡券兑换', icon: 'youhuiquan', type: 'link', url: 'pages/coupon/receive' },
-  { id: 'coupon', name: '转赠记录', icon: 'lingquan', type: 'link', url: 'pages/give/index' },
+  // { id: 'myCoupon', name: '卡券兑换', icon: 'youhuiquan', type: 'link', url: 'pages/coupon/receive' },
+  // { id: 'coupon', name: '转赠记录', icon: 'lingquan', type: 'link', url: 'pages/give/index' },
   { id: 'points', name: '我的积分', icon: 'jifen', type: 'link', url: 'pages/points/detail' },
-  { id: 'book', name: '我的预约', icon: 'tuxingyanzhengma', type: 'link', url: 'pages/book/my' },
+  // { id: 'book', name: '我的预约', icon: 'tuxingyanzhengma', type: 'link', url: 'pages/book/my' },
   { id: 'help', name: '我的帮助', icon: 'bangzhu', type: 'link', url: 'pages/help/index' },
   { id: 'contact', name: '在线客服', icon: 'kefu', type: 'button', openType: 'contact' },
-  { id: 'address', name: '收货地址', icon: 'shouhuodizhi', type: 'link', url: 'pages/address/index' },
+  // { id: 'address', name: '收货地址', icon: 'shouhuodizhi', type: 'link', url: 'pages/address/index' },
   { id: 'refund', name: '售后服务', icon: 'shouhou', type: 'link', url: 'pages/refund/index' },
   { id: 'setting', name: '个人信息', icon: 'shezhi1', type: 'link', url: 'pages/user/setting' },
-  { id: 'book', name: '立即预约', icon: 'naozhong', type: 'link', url: 'pages/book/index' },
-  { id: 'share', name: '邀请有礼', icon: 'fenxiang-post', type: 'link', url: 'pages/share/index' },
+  // { id: 'book', name: '立即预约', icon: 'naozhong', type: 'link', url: 'pages/book/index' },
+  // { id: 'share', name: '邀请有礼', icon: 'fenxiang-post', type: 'link', url: 'pages/share/index' },
 ]
 
 export default {

@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "新增收货地址",
+  "navigationBarTitleText": "绑定门店",
   "usingComponents": {
     "u-form": "/uview-ui/components/u-form/u-form",
     "u-form-item": "/uview-ui/components/u-form-item/u-form-item",

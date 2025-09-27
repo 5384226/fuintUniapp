@@ -68,9 +68,9 @@ module.exports = _nonIterableRest, module.exports.__esModule = true, module.expo
 /***/ }),
 
 /***/ 100:
-/*!*************************************************************************!*\
-  !*** D:/项目/fuintUniapp/components/mescroll-uni/mixins/mescroll-comp.js ***!
-  \*************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/project/fuintUniapp/components/mescroll-uni/mixins/mescroll-comp.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -134,9 +134,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 107:
-/*!*************************************!*\
-  !*** D:/项目/fuintUniapp/api/cart.js ***!
-  \*************************************/
+/*!******************************************!*\
+  !*** D:/project/fuintUniapp/api/cart.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -192,9 +192,9 @@ exports.clear = clear;
 /***/ }),
 
 /***/ 108:
-/*!**************************************!*\
-  !*** D:/项目/fuintUniapp/api/goods.js ***!
-  \**************************************/
+/*!*******************************************!*\
+  !*** D:/project/fuintUniapp/api/goods.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -287,9 +287,9 @@ module.exports = toPropertyKey, module.exports.__esModule = true, module.exports
 /***/ }),
 
 /***/ 129:
-/*!****************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/setting/Key.js ***!
-  \****************************************************/
+/*!*********************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/setting/Key.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -344,9 +344,9 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 /***/ }),
 
 /***/ 130:
-/*!*********************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/enum.js ***!
-  \*********************************************/
+/*!**************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/enum.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -462,9 +462,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 131:
-/*!*************************************************!*\
-  !*** D:/项目/fuintUniapp/common/model/Setting.js ***!
-  \*************************************************/
+/*!******************************************************!*\
+  !*** D:/project/fuintUniapp/common/model/Setting.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -540,52 +540,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 1319:
-/*!******************************************!*\
-  !*** D:/项目/fuintUniapp/api/storebind.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.bindStore = bindStore;
-exports.getStore = getStore;
-exports.unbindStore = unbindStore;
-var _request = _interopRequireDefault(__webpack_require__(/*! @/utils/request */ 43));
-// api地址
-var api = {
-  getStore: "api/storebind/get_store",
-  bindStore: "api/storebind/bind_store",
-  unbindStore: "api/storebind/unbind_store"
-};
-
-// 获取店铺绑定信息
-function getStore() {
-  return _request.default.get(api.getStore);
-}
-
-// 绑定店铺
-function bindStore(data) {
-  return _request.default.post(api.bindStore, data);
-}
-
-// 解绑店铺
-function unbindStore(data) {
-  return _request.default.post(api.unbindStore, data);
-}
-
-/***/ }),
-
 /***/ 132:
-/*!*************************************!*\
-  !*** D:/项目/fuintUniapp/api/user.js ***!
-  \*************************************/
+/*!******************************************!*\
+  !*** D:/project/fuintUniapp/api/user.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -661,9 +619,9 @@ exports.save = save;
 /***/ }),
 
 /***/ 133:
-/*!**************************************!*\
-  !*** D:/项目/fuintUniapp/api/order.js ***!
-  \**************************************/
+/*!*******************************************!*\
+  !*** D:/project/fuintUniapp/api/order.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -758,9 +716,9 @@ module.exports = toPrimitive, module.exports.__esModule = true, module.exports["
 /***/ }),
 
 /***/ 142:
-/*!***************************************!*\
-  !*** D:/项目/fuintUniapp/api/upload.js ***!
-  \***************************************/
+/*!********************************************!*\
+  !*** D:/project/fuintUniapp/api/upload.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -859,9 +817,9 @@ module.exports = _isNativeReflectConstruct, module.exports.__esModule = true, mo
 /***/ }),
 
 /***/ 175:
-/*!*****************************************!*\
-  !*** D:/项目/fuintUniapp/utils/verify.js ***!
-  \*****************************************/
+/*!**********************************************!*\
+  !*** D:/project/fuintUniapp/utils/verify.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4042,9 +4000,9 @@ function resolveLocaleChain(locale) {
 /***/ }),
 
 /***/ 224:
-/*!********************************************************************!*\
-  !*** D:/项目/fuintUniapp/components/mescroll-uni/mescroll-mixins.js ***!
-  \********************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/project/fuintUniapp/components/mescroll-uni/mescroll-mixins.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4125,9 +4083,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 225:
-/*!*************************************!*\
-  !*** D:/项目/fuintUniapp/api/help.js ***!
-  \*************************************/
+/*!******************************************!*\
+  !*** D:/project/fuintUniapp/api/help.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4170,9 +4128,9 @@ module.exports = _classCallCheck, module.exports.__esModule = true, module.expor
 /***/ }),
 
 /***/ 234:
-/*!***************************************!*\
-  !*** D:/项目/fuintUniapp/api/coupon.js ***!
-  \***************************************/
+/*!********************************************!*\
+  !*** D:/project/fuintUniapp/api/coupon.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4223,9 +4181,9 @@ function detail(couponId) {
 /***/ }),
 
 /***/ 235:
-/*!*****************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/coupon/index.js ***!
-  \*****************************************************/
+/*!**********************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/coupon/index.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4261,9 +4219,9 @@ var _CouponType = _interopRequireDefault(__webpack_require__(/*! ./CouponType */
 /***/ }),
 
 /***/ 236:
-/*!**********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/coupon/ApplyRange.js ***!
-  \**********************************************************/
+/*!***************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/coupon/ApplyRange.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4294,9 +4252,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 237:
-/*!**********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/coupon/ExpireType.js ***!
-  \**********************************************************/
+/*!***************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/coupon/ExpireType.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4327,9 +4285,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 238:
-/*!**********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/coupon/CouponType.js ***!
-  \**********************************************************/
+/*!***************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/coupon/CouponType.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10475,9 +10433,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 252:
-/*!********************************************************************!*\
-  !*** D:/项目/fuintUniapp/components/jyf-parser/libs/MpHtmlParser.js ***!
-  \********************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/project/fuintUniapp/components/jyf-parser/libs/MpHtmlParser.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11055,9 +11013,9 @@ module.exports = MpHtmlParser;
 /***/ }),
 
 /***/ 253:
-/*!**************************************************************!*\
-  !*** D:/项目/fuintUniapp/components/jyf-parser/libs/config.js ***!
-  \**************************************************************/
+/*!*******************************************************************!*\
+  !*** D:/project/fuintUniapp/components/jyf-parser/libs/config.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11137,9 +11095,9 @@ module.exports = cfg;
 /***/ }),
 
 /***/ 254:
-/*!******************************************************************!*\
-  !*** D:/项目/fuintUniapp/components/jyf-parser/libs/CssHandler.js ***!
-  \******************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/project/fuintUniapp/components/jyf-parser/libs/CssHandler.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11243,9 +11201,9 @@ parser.prototype.Content = function () {
 /***/ }),
 
 /***/ 257:
-/*!*****************************************!*\
-  !*** D:/项目/fuintUniapp/api/myCoupon.js ***!
-  \*****************************************/
+/*!**********************************************!*\
+  !*** D:/project/fuintUniapp/api/myCoupon.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11312,9 +11270,9 @@ function remove(userCouponId) {
 /***/ }),
 
 /***/ 258:
-/*!*************************************!*\
-  !*** D:/项目/fuintUniapp/api/give.js ***!
-  \*************************************/
+/*!******************************************!*\
+  !*** D:/project/fuintUniapp/api/give.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11348,9 +11306,9 @@ exports.giveLog = giveLog;
 /***/ }),
 
 /***/ 26:
-/*!************************************!*\
-  !*** D:/项目/fuintUniapp/pages.json ***!
-  \************************************/
+/*!*****************************************!*\
+  !*** D:/project/fuintUniapp/pages.json ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11359,9 +11317,9 @@ exports.giveLog = giveLog;
 /***/ }),
 
 /***/ 293:
-/*!****************************************!*\
-  !*** D:/项目/fuintUniapp/api/confirm.js ***!
-  \****************************************/
+/*!*********************************************!*\
+  !*** D:/project/fuintUniapp/api/confirm.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11422,9 +11380,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 336:
-/*!****************************************!*\
-  !*** D:/项目/fuintUniapp/api/address.js ***!
-  \****************************************/
+/*!*********************************************!*\
+  !*** D:/project/fuintUniapp/api/address.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11490,6 +11448,48 @@ var remove = function remove(addressId, status) {
   });
 };
 exports.remove = remove;
+
+/***/ }),
+
+/***/ 337:
+/*!***********************************************!*\
+  !*** D:/project/fuintUniapp/api/storebind.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.bindStore = bindStore;
+exports.getStore = getStore;
+exports.unbindStore = unbindStore;
+var _request = _interopRequireDefault(__webpack_require__(/*! @/utils/request */ 43));
+// api地址
+var api = {
+  getStore: "api/storebind/get_store",
+  bindStore: "api/storebind/bind_store",
+  unbindStore: "api/storebind/unbind_store"
+};
+
+// 获取店铺绑定信息
+function getStore() {
+  return _request.default.get(api.getStore);
+}
+
+// 绑定店铺
+function bindStore(data) {
+  return _request.default.post(api.bindStore, data);
+}
+
+// 解绑店铺
+function unbindStore(data) {
+  return _request.default.post(api.unbindStore, data);
+}
 
 /***/ }),
 
@@ -11626,9 +11626,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 35:
-/*!****************************************!*\
-  !*** D:/项目/fuintUniapp/store/index.js ***!
-  \****************************************/
+/*!*********************************************!*\
+  !*** D:/project/fuintUniapp/store/index.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12916,10 +12916,10 @@ module.exports = index_cjs;
 
 /***/ }),
 
-/***/ 365:
-/*!*******************************************!*\
-  !*** D:/项目/fuintUniapp/api/points/log.js ***!
-  \*******************************************/
+/***/ 366:
+/*!************************************************!*\
+  !*** D:/project/fuintUniapp/api/points/log.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12953,9 +12953,9 @@ exports.gift = gift;
 /***/ }),
 
 /***/ 37:
-/*!************************************************!*\
-  !*** D:/项目/fuintUniapp/store/modules/index.js ***!
-  \************************************************/
+/*!*****************************************************!*\
+  !*** D:/project/fuintUniapp/store/modules/index.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12984,9 +12984,9 @@ var _user = _interopRequireDefault(__webpack_require__(/*! ./user */ 41));
 /***/ }),
 
 /***/ 38:
-/*!**********************************************!*\
-  !*** D:/项目/fuintUniapp/store/modules/app.js ***!
-  \**********************************************/
+/*!***************************************************!*\
+  !*** D:/project/fuintUniapp/store/modules/app.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13018,9 +13018,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 39:
-/*!*************************************************!*\
-  !*** D:/项目/fuintUniapp/store/mutation-types.js ***!
-  \*************************************************/
+/*!******************************************************!*\
+  !*** D:/project/fuintUniapp/store/mutation-types.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13040,10 +13040,10 @@ exports.PLATFORM = PLATFORM;
 
 /***/ }),
 
-/***/ 392:
-/*!****************************************!*\
-  !*** D:/项目/fuintUniapp/api/balance.js ***!
-  \****************************************/
+/***/ 393:
+/*!*********************************************!*\
+  !*** D:/project/fuintUniapp/api/balance.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13103,9 +13103,9 @@ module.exports = _interopRequireDefault, module.exports.__esModule = true, modul
 /***/ }),
 
 /***/ 40:
-/*!******************************************!*\
-  !*** D:/项目/fuintUniapp/utils/storage.js ***!
-  \******************************************/
+/*!***********************************************!*\
+  !*** D:/project/fuintUniapp/utils/storage.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13196,9 +13196,9 @@ module.exports = {
 /***/ }),
 
 /***/ 41:
-/*!***********************************************!*\
-  !*** D:/项目/fuintUniapp/store/modules/user.js ***!
-  \***********************************************/
+/*!****************************************************!*\
+  !*** D:/project/fuintUniapp/store/modules/user.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13321,9 +13321,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 42:
-/*!********************************************!*\
-  !*** D:/项目/fuintUniapp/api/login/index.js ***!
-  \********************************************/
+/*!*************************************************!*\
+  !*** D:/project/fuintUniapp/api/login/index.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13390,10 +13390,10 @@ function authLoginConfig() {
 
 /***/ }),
 
-/***/ 427:
-/*!*******************************************!*\
-  !*** D:/项目/fuintUniapp/api/settlement.js ***!
-  \*******************************************/
+/***/ 428:
+/*!************************************************!*\
+  !*** D:/project/fuintUniapp/api/settlement.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13446,10 +13446,10 @@ exports.doCashier = doCashier;
 
 /***/ }),
 
-/***/ 428:
-/*!******************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/PayType.js ***!
-  \******************************************************/
+/***/ 429:
+/*!***********************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/PayType.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13500,9 +13500,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 43:
-/*!************************************************!*\
-  !*** D:/项目/fuintUniapp/utils/request/index.js ***!
-  \************************************************/
+/*!*****************************************************!*\
+  !*** D:/project/fuintUniapp/utils/request/index.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13750,10 +13750,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 437:
-/*!***********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/DeliveryType.js ***!
-  \***********************************************************/
+/***/ 438:
+/*!****************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/DeliveryType.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13793,10 +13793,10 @@ module.exports = runtime;
 
 /***/ }),
 
-/***/ 446:
-/*!****************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/index.js ***!
-  \****************************************************/
+/***/ 447:
+/*!*********************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/index.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13849,20 +13849,20 @@ Object.defineProperty(exports, "ReceiptStatusEnum", {
     return _ReceiptStatus.default;
   }
 });
-var _DeliveryStatus = _interopRequireDefault(__webpack_require__(/*! ./DeliveryStatus */ 447));
-var _DeliveryType = _interopRequireDefault(__webpack_require__(/*! ./DeliveryType */ 437));
-var _OrderSource = _interopRequireDefault(__webpack_require__(/*! ./OrderSource */ 448));
-var _OrderStatus = _interopRequireDefault(__webpack_require__(/*! ./OrderStatus */ 449));
-var _PayStatus = _interopRequireDefault(__webpack_require__(/*! ./PayStatus */ 450));
-var _PayType = _interopRequireDefault(__webpack_require__(/*! ./PayType */ 428));
-var _ReceiptStatus = _interopRequireDefault(__webpack_require__(/*! ./ReceiptStatus */ 451));
+var _DeliveryStatus = _interopRequireDefault(__webpack_require__(/*! ./DeliveryStatus */ 448));
+var _DeliveryType = _interopRequireDefault(__webpack_require__(/*! ./DeliveryType */ 438));
+var _OrderSource = _interopRequireDefault(__webpack_require__(/*! ./OrderSource */ 449));
+var _OrderStatus = _interopRequireDefault(__webpack_require__(/*! ./OrderStatus */ 450));
+var _PayStatus = _interopRequireDefault(__webpack_require__(/*! ./PayStatus */ 451));
+var _PayType = _interopRequireDefault(__webpack_require__(/*! ./PayType */ 429));
+var _ReceiptStatus = _interopRequireDefault(__webpack_require__(/*! ./ReceiptStatus */ 452));
 
 /***/ }),
 
-/***/ 447:
-/*!*************************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/DeliveryStatus.js ***!
-  \*************************************************************/
+/***/ 448:
+/*!******************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/DeliveryStatus.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13892,10 +13892,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 448:
-/*!**********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/OrderSource.js ***!
-  \**********************************************************/
+/***/ 449:
+/*!***************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/OrderSource.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13924,67 +13924,6 @@ var _default = new _enum.default([{
   key: 'SHARP',
   name: '秒杀订单',
   value: 30
-}]);
-exports.default = _default;
-
-/***/ }),
-
-/***/ 449:
-/*!**********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/OrderStatus.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _enum = _interopRequireDefault(__webpack_require__(/*! ../enum */ 130));
-/**
- * 枚举类：订单状态
- * OrderStatusEnum
- */
-var _default = new _enum.default([{
-  key: 'CREATED',
-  name: '待支付',
-  value: 'A'
-}, {
-  key: 'PAID',
-  name: '已支付',
-  value: 'B'
-}, {
-  key: 'CANCEL',
-  name: '已取消',
-  value: 'C'
-}, {
-  key: 'DELIVERY',
-  name: '待发货',
-  value: 'D'
-}, {
-  key: 'DELIVERED',
-  name: '已发货',
-  value: 'E'
-}, {
-  key: 'RECEIVED',
-  name: '已收货',
-  value: 'F'
-}, {
-  key: 'DELETED',
-  name: '已删除',
-  value: 'G'
-}, {
-  key: 'REFUND',
-  name: '已退款',
-  value: 'H'
-}, {
-  key: 'COMPLETE',
-  name: '已完成',
-  value: 'I'
 }]);
 exports.default = _default;
 
@@ -14313,9 +14252,70 @@ module.exports = _regeneratorRuntime, module.exports.__esModule = true, module.e
 /***/ }),
 
 /***/ 450:
-/*!********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/PayStatus.js ***!
-  \********************************************************/
+/*!***************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/OrderStatus.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _enum = _interopRequireDefault(__webpack_require__(/*! ../enum */ 130));
+/**
+ * 枚举类：订单状态
+ * OrderStatusEnum
+ */
+var _default = new _enum.default([{
+  key: 'CREATED',
+  name: '待支付',
+  value: 'A'
+}, {
+  key: 'PAID',
+  name: '已支付',
+  value: 'B'
+}, {
+  key: 'CANCEL',
+  name: '已取消',
+  value: 'C'
+}, {
+  key: 'DELIVERY',
+  name: '待发货',
+  value: 'D'
+}, {
+  key: 'DELIVERED',
+  name: '已发货',
+  value: 'E'
+}, {
+  key: 'RECEIVED',
+  name: '已收货',
+  value: 'F'
+}, {
+  key: 'DELETED',
+  name: '已删除',
+  value: 'G'
+}, {
+  key: 'REFUND',
+  name: '已退款',
+  value: 'H'
+}, {
+  key: 'COMPLETE',
+  name: '已完成',
+  value: 'I'
+}]);
+exports.default = _default;
+
+/***/ }),
+
+/***/ 451:
+/*!*************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/PayStatus.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14345,10 +14345,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 451:
-/*!************************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/ReceiptStatus.js ***!
-  \************************************************************/
+/***/ 452:
+/*!*****************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/ReceiptStatus.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14420,9 +14420,9 @@ module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exp
 /***/ }),
 
 /***/ 47:
-/*!**************************************************!*\
-  !*** D:/项目/fuintUniapp/utils/request/request.js ***!
-  \**************************************************/
+/*!*******************************************************!*\
+  !*** D:/project/fuintUniapp/utils/request/request.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14444,10 +14444,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 478:
-/*!***************************************!*\
-  !*** D:/项目/fuintUniapp/api/refund.js ***!
-  \***************************************/
+/***/ 479:
+/*!********************************************!*\
+  !*** D:/project/fuintUniapp/api/refund.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14510,9 +14510,9 @@ exports.delivery = delivery;
 /***/ }),
 
 /***/ 48:
-/*!********************************************************!*\
-  !*** D:/项目/fuintUniapp/utils/request/upload/upload.js ***!
-  \********************************************************/
+/*!*************************************************************!*\
+  !*** D:/project/fuintUniapp/utils/request/upload/upload.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14936,10 +14936,10 @@ exports.default = fileUpload;
 
 /***/ }),
 
-/***/ 487:
-/*!***********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/refund/index.js ***!
-  \***********************************************************/
+/***/ 488:
+/*!****************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/refund/index.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14968,16 +14968,16 @@ Object.defineProperty(exports, "RefundTypeEnum", {
     return _RefundType.default;
   }
 });
-var _AuditStatus = _interopRequireDefault(__webpack_require__(/*! ./AuditStatus */ 488));
-var _RefundStatus = _interopRequireDefault(__webpack_require__(/*! ./RefundStatus */ 489));
-var _RefundType = _interopRequireDefault(__webpack_require__(/*! ./RefundType */ 490));
+var _AuditStatus = _interopRequireDefault(__webpack_require__(/*! ./AuditStatus */ 489));
+var _RefundStatus = _interopRequireDefault(__webpack_require__(/*! ./RefundStatus */ 490));
+var _RefundType = _interopRequireDefault(__webpack_require__(/*! ./RefundType */ 491));
 
 /***/ }),
 
-/***/ 488:
-/*!*****************************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/refund/AuditStatus.js ***!
-  \*****************************************************************/
+/***/ 489:
+/*!**********************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/refund/AuditStatus.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15011,10 +15011,38 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 489:
-/*!******************************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/refund/RefundStatus.js ***!
-  \******************************************************************/
+/***/ 49:
+/*!*********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ 16);
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  Object.defineProperty(subClass, "prototype", {
+    writable: false
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+module.exports = _inherits, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 490:
+/*!***********************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/refund/RefundStatus.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15051,38 +15079,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 49:
-/*!*********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ 16);
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
-    }
-  });
-  Object.defineProperty(subClass, "prototype", {
-    writable: false
-  });
-  if (superClass) setPrototypeOf(subClass, superClass);
-}
-module.exports = _inherits, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ 490:
-/*!****************************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/order/refund/RefundType.js ***!
-  \****************************************************************/
+/***/ 491:
+/*!*********************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/order/refund/RefundType.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15185,10 +15185,10 @@ module.exports = _getPrototypeOf, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ 523:
-/*!*****************************************!*\
-  !*** D:/项目/fuintUniapp/api/merchant.js ***!
-  \*****************************************/
+/***/ 524:
+/*!**********************************************!*\
+  !*** D:/project/fuintUniapp/api/merchant.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15237,9 +15237,9 @@ exports.saveSetting = saveSetting;
 /***/ }),
 
 /***/ 53:
-/*!*******************************************************!*\
-  !*** D:/项目/fuintUniapp/utils/request/core/request.js ***!
-  \*******************************************************/
+/*!************************************************************!*\
+  !*** D:/project/fuintUniapp/utils/request/core/request.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15469,9 +15469,9 @@ exports.default = request;
 /***/ }),
 
 /***/ 54:
-/*!*****************************************************!*\
-  !*** D:/项目/fuintUniapp/utils/request/core/utils.js ***!
-  \*****************************************************/
+/*!**********************************************************!*\
+  !*** D:/project/fuintUniapp/utils/request/core/utils.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15574,9 +15574,9 @@ exports.jsonpRequest = jsonpRequest;
 /***/ }),
 
 /***/ 55:
-/*!*******************************************************!*\
-  !*** D:/项目/fuintUniapp/utils/request/upload/utils.js ***!
-  \*******************************************************/
+/*!************************************************************!*\
+  !*** D:/project/fuintUniapp/utils/request/upload/utils.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15827,10 +15827,10 @@ exports.urlUpload = urlUpload;
 
 /***/ }),
 
-/***/ 550:
-/*!************************************************!*\
-  !*** D:/项目/fuintUniapp/api/merchant/member.js ***!
-  \************************************************/
+/***/ 551:
+/*!*****************************************************!*\
+  !*** D:/project/fuintUniapp/api/merchant/member.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15876,9 +15876,9 @@ exports.save = save;
 /***/ }),
 
 /***/ 56:
-/*!***************************************************************!*\
-  !*** D:/项目/fuintUniapp/utils/request/upload/qiniuUploader.js ***!
-  \***************************************************************/
+/*!********************************************************************!*\
+  !*** D:/project/fuintUniapp/utils/request/upload/qiniuUploader.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16057,9 +16057,9 @@ exports.save = save;
 /***/ }),
 
 /***/ 57:
-/*!***********************************!*\
-  !*** D:/项目/fuintUniapp/config.js ***!
-  \***********************************/
+/*!****************************************!*\
+  !*** D:/project/fuintUniapp/config.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16075,9 +16075,9 @@ module.exports = {
 /***/ }),
 
 /***/ 58:
-/*!**************************************!*\
-  !*** D:/项目/fuintUniapp/utils/app.js ***!
-  \**************************************/
+/*!*******************************************!*\
+  !*** D:/project/fuintUniapp/utils/app.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16450,10 +16450,10 @@ exports.h5Pay = h5Pay;
 
 /***/ }),
 
-/***/ 583:
-/*!***********************************************!*\
-  !*** D:/项目/fuintUniapp/api/merchant/order.js ***!
-  \***********************************************/
+/***/ 584:
+/*!****************************************************!*\
+  !*** D:/project/fuintUniapp/api/merchant/order.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16499,9 +16499,9 @@ exports.confirm = confirm;
 /***/ }),
 
 /***/ 59:
-/*!***************************************!*\
-  !*** D:/项目/fuintUniapp/utils/util.js ***!
-  \***************************************/
+/*!********************************************!*\
+  !*** D:/project/fuintUniapp/utils/util.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16729,10 +16729,10 @@ exports.arrayIntersect = arrayIntersect;
 
 /***/ }),
 
-/***/ 592:
-/*!**************************************************!*\
-  !*** D:/项目/fuintUniapp/api/merchant/recharge.js ***!
-  \**************************************************/
+/***/ 593:
+/*!*******************************************************!*\
+  !*** D:/project/fuintUniapp/api/merchant/recharge.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16777,9 +16777,9 @@ module.exports = _arrayWithHoles, module.exports.__esModule = true, module.expor
 /***/ }),
 
 /***/ 60:
-/*!**************************************************!*\
-  !*** D:/项目/fuintUniapp/common/constant/index.js ***!
-  \**************************************************/
+/*!*******************************************************!*\
+  !*** D:/project/fuintUniapp/common/constant/index.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16800,10 +16800,10 @@ var _paginate = _interopRequireDefault(__webpack_require__(/*! ./paginate */ 61)
 
 /***/ }),
 
-/***/ 601:
-/*!************************************************!*\
-  !*** D:/项目/fuintUniapp/api/merchant/coupon.js ***!
-  \************************************************/
+/***/ 602:
+/*!*****************************************************!*\
+  !*** D:/project/fuintUniapp/api/merchant/coupon.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16861,9 +16861,9 @@ function info(couponId) {
 /***/ }),
 
 /***/ 61:
-/*!*****************************************************!*\
-  !*** D:/项目/fuintUniapp/common/constant/paginate.js ***!
-  \*****************************************************/
+/*!**********************************************************!*\
+  !*** D:/project/fuintUniapp/common/constant/paginate.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16890,9 +16890,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 62:
-/*!****************************************!*\
-  !*** D:/项目/fuintUniapp/api/message.js ***!
-  \****************************************/
+/*!*********************************************!*\
+  !*** D:/project/fuintUniapp/api/message.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16932,10 +16932,10 @@ exports.getSubTemplate = getSubTemplate;
 
 /***/ }),
 
-/***/ 626:
-/*!**********************************************!*\
-  !*** D:/项目/fuintUniapp/api/merchant/book.js ***!
-  \**********************************************/
+/***/ 627:
+/*!***************************************************!*\
+  !*** D:/project/fuintUniapp/api/merchant/book.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16993,9 +16993,9 @@ function confirm(bookId, status) {
 /***/ }),
 
 /***/ 63:
-/*!******************************************!*\
-  !*** D:/项目/fuintUniapp/store/getters.js ***!
-  \******************************************/
+/*!***********************************************!*\
+  !*** D:/project/fuintUniapp/store/getters.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17022,10 +17022,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 635:
-/*!****************************************!*\
-  !*** D:/项目/fuintUniapp/api/article.js ***!
-  \****************************************/
+/***/ 636:
+/*!*********************************************!*\
+  !*** D:/project/fuintUniapp/api/article.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17068,9 +17068,9 @@ exports.cateList = cateList;
 /***/ }),
 
 /***/ 64:
-/*!*******************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/index.js ***!
-  \*******************************************/
+/*!************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/index.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17203,9 +17203,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 65:
-/*!******************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/mixin/mixin.js ***!
-  \******************************************************/
+/*!***********************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/mixin/mixin.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17279,9 +17279,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 66:
-/*!********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/request/index.js ***!
-  \********************************************************/
+/*!*************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/request/index.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17490,10 +17490,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 660:
-/*!**************************************!*\
-  !*** D:/项目/fuintUniapp/api/share.js ***!
-  \**************************************/
+/***/ 661:
+/*!*******************************************!*\
+  !*** D:/project/fuintUniapp/api/share.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17526,10 +17526,60 @@ exports.getMiniAppLink = getMiniAppLink;
 
 /***/ }),
 
-/***/ 669:
-/*!*************************************!*\
-  !*** D:/项目/fuintUniapp/api/book.js ***!
-  \*************************************/
+/***/ 67:
+/*!******************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/deepMerge.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
+var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 68));
+// JS对象深度合并
+function deepMerge() {
+  var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  target = (0, _deepClone.default)(target);
+  if ((0, _typeof2.default)(target) !== 'object' || (0, _typeof2.default)(source) !== 'object') return false;
+  for (var prop in source) {
+    if (!source.hasOwnProperty(prop)) continue;
+    if (prop in target) {
+      if ((0, _typeof2.default)(target[prop]) !== 'object') {
+        target[prop] = source[prop];
+      } else {
+        if ((0, _typeof2.default)(source[prop]) !== 'object') {
+          target[prop] = source[prop];
+        } else {
+          if (target[prop].concat && source[prop].concat) {
+            target[prop] = target[prop].concat(source[prop]);
+          } else {
+            target[prop] = deepMerge(target[prop], source[prop]);
+          }
+        }
+      }
+    } else {
+      target[prop] = source[prop];
+    }
+  }
+  return target;
+}
+var _default = deepMerge;
+exports.default = _default;
+
+/***/ }),
+
+/***/ 670:
+/*!******************************************!*\
+  !*** D:/project/fuintUniapp/api/book.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17614,60 +17664,10 @@ function cancel(bookId, data) {
 
 /***/ }),
 
-/***/ 67:
-/*!*************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/deepMerge.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 68));
-// JS对象深度合并
-function deepMerge() {
-  var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  target = (0, _deepClone.default)(target);
-  if ((0, _typeof2.default)(target) !== 'object' || (0, _typeof2.default)(source) !== 'object') return false;
-  for (var prop in source) {
-    if (!source.hasOwnProperty(prop)) continue;
-    if (prop in target) {
-      if ((0, _typeof2.default)(target[prop]) !== 'object') {
-        target[prop] = source[prop];
-      } else {
-        if ((0, _typeof2.default)(source[prop]) !== 'object') {
-          target[prop] = source[prop];
-        } else {
-          if (target[prop].concat && source[prop].concat) {
-            target[prop] = target[prop].concat(source[prop]);
-          } else {
-            target[prop] = deepMerge(target[prop], source[prop]);
-          }
-        }
-      }
-    } else {
-      target[prop] = source[prop];
-    }
-  }
-  return target;
-}
-var _default = deepMerge;
-exports.default = _default;
-
-/***/ }),
-
 /***/ 68:
-/*!*************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/deepClone.js ***!
-  \*************************************************************/
+/*!******************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/deepClone.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17707,9 +17707,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 69:
-/*!********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/test.js ***!
-  \********************************************************/
+/*!*************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/test.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17996,9 +17996,9 @@ module.exports = _iterableToArrayLimit, module.exports.__esModule = true, module
 /***/ }),
 
 /***/ 70:
-/*!***************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/queryParams.js ***!
-  \***************************************************************/
+/*!********************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/queryParams.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18078,9 +18078,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 71:
-/*!*********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/route.js ***!
-  \*********************************************************/
+/*!**************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/route.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18259,10 +18259,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 718:
-/*!***********************************************!*\
-  !*** D:/项目/fuintUniapp/api/merchant/staff.js ***!
-  \***********************************************/
+/***/ 719:
+/*!****************************************************!*\
+  !*** D:/project/fuintUniapp/api/merchant/staff.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18309,9 +18309,9 @@ exports.save = save;
 /***/ }),
 
 /***/ 72:
-/*!**************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/timeFormat.js ***!
-  \**************************************************************/
+/*!*******************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/timeFormat.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18386,9 +18386,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 73:
-/*!************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/timeFrom.js ***!
-  \************************************************************/
+/*!*****************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/timeFrom.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18451,9 +18451,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 74:
-/*!*****************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/colorGradient.js ***!
-  \*****************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/colorGradient.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18605,9 +18605,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 75:
-/*!********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/guid.js ***!
-  \********************************************************/
+/*!*************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/guid.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18665,10 +18665,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 756:
-/*!**************************************************!*\
-  !*** D:/项目/fuintUniapp/components/page/mixin.js ***!
-  \**************************************************/
+/***/ 757:
+/*!*******************************************************!*\
+  !*** D:/project/fuintUniapp/components/page/mixin.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18705,9 +18705,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 76:
-/*!*********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/color.js ***!
-  \*********************************************************/
+/*!**************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/color.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18754,9 +18754,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 77:
-/*!*************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/type2icon.js ***!
-  \*************************************************************/
+/*!******************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/type2icon.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18808,9 +18808,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 78:
-/*!***************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/randomArray.js ***!
-  \***************************************************************/
+/*!********************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/randomArray.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18835,9 +18835,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 79:
-/*!***********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/addUnit.js ***!
-  \***********************************************************/
+/*!****************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/addUnit.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18882,9 +18882,9 @@ module.exports = _unsupportedIterableToArray, module.exports.__esModule = true, 
 /***/ }),
 
 /***/ 80:
-/*!**********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/random.js ***!
-  \**********************************************************/
+/*!***************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/random.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18909,9 +18909,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 81:
-/*!********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/trim.js ***!
-  \********************************************************/
+/*!*************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/trim.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18942,9 +18942,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 82:
-/*!*********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/toast.js ***!
-  \*********************************************************/
+/*!**************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/toast.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18969,10 +18969,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 821:
-/*!**********************************************************!*\
-  !*** D:/项目/fuintUniapp/common/enum/protocol/Protocol.js ***!
-  \**********************************************************/
+/***/ 822:
+/*!***************************************************************!*\
+  !*** D:/project/fuintUniapp/common/enum/protocol/Protocol.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19002,10 +19002,80 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 829:
-/*!*****************************************************************!*\
-  !*** D:/项目/fuintUniapp/components/mescroll-uni/mescroll-uni.js ***!
-  \*****************************************************************/
+/***/ 83:
+/*!******************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/getParent.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getParent;
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
+// 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+function getParent(name, keys) {
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {
+      var _ret = function () {
+        var data = {};
+        // 判断keys是否数组，如果传过来的是一个数组，那么直接使用数组元素值当做键值去父组件寻找
+        if (Array.isArray(keys)) {
+          keys.map(function (val) {
+            data[val] = parent[val] ? parent[val] : '';
+          });
+        } else {
+          // 历遍传过来的对象参数
+          for (var i in keys) {
+            // 如果子组件有此值则用，无此值则用父组件的值
+            // 判断是否空数组，如果是，则用父组件的值，否则用子组件的值
+            if (Array.isArray(keys[i])) {
+              if (keys[i].length) {
+                data[i] = keys[i];
+              } else {
+                data[i] = parent[i];
+              }
+            } else if (keys[i].constructor === Object) {
+              // 判断是否对象，如果是对象，且有属性，那么使用子组件的值，否则使用父组件的值
+              if (Object.keys(keys[i]).length) {
+                data[i] = keys[i];
+              } else {
+                data[i] = parent[i];
+              }
+            } else {
+              // 只要子组件有传值，即使是false值，也是“传值”了，也需要覆盖父组件的同名参数
+              data[i] = keys[i] || keys[i] === false ? keys[i] : parent[i];
+            }
+          }
+        }
+        return {
+          v: data
+        };
+      }();
+      if ((0, _typeof2.default)(_ret) === "object") return _ret.v;
+    }
+  }
+  return {};
+}
+
+/***/ }),
+
+/***/ 830:
+/*!**********************************************************************!*\
+  !*** D:/project/fuintUniapp/components/mescroll-uni/mescroll-uni.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19904,80 +19974,10 @@ MeScroll.prototype.preventDefault = function (e) {
 
 /***/ }),
 
-/***/ 83:
-/*!*************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/getParent.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = getParent;
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-// 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-function getParent(name, keys) {
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {
-      var _ret = function () {
-        var data = {};
-        // 判断keys是否数组，如果传过来的是一个数组，那么直接使用数组元素值当做键值去父组件寻找
-        if (Array.isArray(keys)) {
-          keys.map(function (val) {
-            data[val] = parent[val] ? parent[val] : '';
-          });
-        } else {
-          // 历遍传过来的对象参数
-          for (var i in keys) {
-            // 如果子组件有此值则用，无此值则用父组件的值
-            // 判断是否空数组，如果是，则用父组件的值，否则用子组件的值
-            if (Array.isArray(keys[i])) {
-              if (keys[i].length) {
-                data[i] = keys[i];
-              } else {
-                data[i] = parent[i];
-              }
-            } else if (keys[i].constructor === Object) {
-              // 判断是否对象，如果是对象，且有属性，那么使用子组件的值，否则使用父组件的值
-              if (Object.keys(keys[i]).length) {
-                data[i] = keys[i];
-              } else {
-                data[i] = parent[i];
-              }
-            } else {
-              // 只要子组件有传值，即使是false值，也是“传值”了，也需要覆盖父组件的同名参数
-              data[i] = keys[i] || keys[i] === false ? keys[i] : parent[i];
-            }
-          }
-        }
-        return {
-          v: data
-        };
-      }();
-      if ((0, _typeof2.default)(_ret) === "object") return _ret.v;
-    }
-  }
-  return {};
-}
-
-/***/ }),
-
-/***/ 830:
-/*!************************************************************************!*\
-  !*** D:/项目/fuintUniapp/components/mescroll-uni/mescroll-uni-option.js ***!
-  \************************************************************************/
+/***/ 831:
+/*!*****************************************************************************!*\
+  !*** D:/project/fuintUniapp/components/mescroll-uni/mescroll-uni-option.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20045,10 +20045,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 831:
-/*!***************************************************************!*\
-  !*** D:/项目/fuintUniapp/components/mescroll-uni/wxs/mixins.js ***!
-  \***************************************************************/
+/***/ 832:
+/*!********************************************************************!*\
+  !*** D:/project/fuintUniapp/components/mescroll-uni/wxs/mixins.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20171,9 +20171,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 84:
-/*!***********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/$parent.js ***!
-  \***********************************************************/
+/*!****************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/$parent.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20206,10 +20206,10 @@ function $parent() {
 
 /***/ }),
 
-/***/ 848:
-/*!*****************************************************************************!*\
-  !*** D:/项目/fuintUniapp/uni_modules/uni-popup/components/uni-popup/popup.js ***!
-  \*****************************************************************************/
+/***/ 849:
+/*!**********************************************************************************!*\
+  !*** D:/project/fuintUniapp/uni_modules/uni-popup/components/uni-popup/popup.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20249,9 +20249,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 85:
-/*!*******************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/sys.js ***!
-  \*******************************************************/
+/*!************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/sys.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20275,9 +20275,9 @@ function sys() {
 /***/ }),
 
 /***/ 86:
-/*!************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/debounce.js ***!
-  \************************************************************/
+/*!*****************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/debounce.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20323,9 +20323,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 87:
-/*!************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/function/throttle.js ***!
-  \************************************************************/
+/*!*****************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/function/throttle.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20375,9 +20375,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 88:
-/*!********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/config/config.js ***!
-  \********************************************************/
+/*!*************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/config/config.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20401,9 +20401,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 89:
-/*!********************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/config/zIndex.js ***!
-  \********************************************************/
+/*!*************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/config/zIndex.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20437,10 +20437,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 898:
-/*!*******************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/util/emitter.js ***!
-  \*******************************************************/
+/***/ 899:
+/*!************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/util/emitter.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20506,10 +20506,58 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 899:
-/*!***************************************************************!*\
-  !*** D:/项目/fuintUniapp/uview-ui/libs/util/async-validator.js ***!
-  \***************************************************************/
+/***/ 9:
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+  return arr2;
+}
+module.exports = _arrayLikeToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 90:
+/*!************************************************!*\
+  !*** D:/project/fuintUniapp/core/bootstrap.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Initializer;
+var _store = _interopRequireDefault(__webpack_require__(/*! @/store */ 35));
+var _storage = _interopRequireDefault(__webpack_require__(/*! @/utils/storage */ 40));
+var _app = __webpack_require__(/*! @/utils/app */ 58);
+var _mutationTypes = __webpack_require__(/*! @/store/mutation-types */ 39);
+function Initializer() {
+  // 当前运行的终端
+  _store.default.commit('SET_PLATFORM', (0, _app.getPlatform)());
+  // 用户认证token
+  _store.default.commit('SET_TOKEN', _storage.default.get(_mutationTypes.ACCESS_TOKEN));
+  // 当前用户ID
+  _store.default.commit('SET_USER_ID', _storage.default.get(_mutationTypes.USER_ID));
+}
+
+/***/ }),
+
+/***/ 900:
+/*!********************************************************************!*\
+  !*** D:/project/fuintUniapp/uview-ui/libs/util/async-validator.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21684,59 +21732,11 @@ Schema.warning = warning;
 Schema.messages = messages;
 var _default = Schema;
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/node-libs-browser/mock/process.js */ 900)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 901)))
 
 /***/ }),
 
-/***/ 9:
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _arrayLikeToArray(arr, len) {
-  if (len == null || len > arr.length) len = arr.length;
-  for (var i = 0, arr2 = new Array(len); i < len; i++) {
-    arr2[i] = arr[i];
-  }
-  return arr2;
-}
-module.exports = _arrayLikeToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ 90:
-/*!*******************************************!*\
-  !*** D:/项目/fuintUniapp/core/bootstrap.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Initializer;
-var _store = _interopRequireDefault(__webpack_require__(/*! @/store */ 35));
-var _storage = _interopRequireDefault(__webpack_require__(/*! @/utils/storage */ 40));
-var _app = __webpack_require__(/*! @/utils/app */ 58);
-var _mutationTypes = __webpack_require__(/*! @/store/mutation-types */ 39);
-function Initializer() {
-  // 当前运行的终端
-  _store.default.commit('SET_PLATFORM', (0, _app.getPlatform)());
-  // 用户认证token
-  _store.default.commit('SET_TOKEN', _storage.default.get(_mutationTypes.ACCESS_TOKEN));
-  // 当前用户ID
-  _store.default.commit('SET_USER_ID', _storage.default.get(_mutationTypes.USER_ID));
-}
-
-/***/ }),
-
-/***/ 900:
+/***/ 901:
 /*!********************************************************!*\
   !*** ./node_modules/node-libs-browser/mock/process.js ***!
   \********************************************************/
@@ -21767,7 +21767,7 @@ exports.binding = function (name) {
     var path;
     exports.cwd = function () { return cwd };
     exports.chdir = function (dir) {
-        if (!path) path = __webpack_require__(/*! path */ 901);
+        if (!path) path = __webpack_require__(/*! path */ 902);
         cwd = path.resolve(dir, cwd);
     };
 })();
@@ -21781,7 +21781,7 @@ exports.features = {};
 
 /***/ }),
 
-/***/ 901:
+/***/ 902:
 /*!***********************************************!*\
   !*** ./node_modules/path-browserify/index.js ***!
   \***********************************************/
@@ -22091,14 +22091,14 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 900)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 901)))
 
 /***/ }),
 
 /***/ 91:
-/*!********************************************!*\
-  !*** D:/项目/fuintUniapp/core/ican-H5Api.js ***!
-  \********************************************/
+/*!*************************************************!*\
+  !*** D:/project/fuintUniapp/core/ican-H5Api.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22106,10 +22106,10 @@ var substr = 'ab'.substr(-1) === 'b'
 
 /***/ }),
 
-/***/ 942:
-/*!************************************************!*\
-  !*** D:/项目/fuintUniapp/common/model/Region.js ***!
-  \************************************************/
+/***/ 943:
+/*!*****************************************************!*\
+  !*** D:/project/fuintUniapp/common/model/Region.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22122,7 +22122,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var Api = _interopRequireWildcard(__webpack_require__(/*! @/api/region */ 943));
+var Api = _interopRequireWildcard(__webpack_require__(/*! @/api/region */ 944));
 var _storage = _interopRequireDefault(__webpack_require__(/*! @/utils/storage */ 40));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
@@ -22184,10 +22184,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 943:
-/*!***************************************!*\
-  !*** D:/项目/fuintUniapp/api/region.js ***!
-  \***************************************/
+/***/ 944:
+/*!********************************************!*\
+  !*** D:/project/fuintUniapp/api/region.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22221,9 +22221,9 @@ exports.tree = tree;
 /***/ }),
 
 /***/ 98:
-/*!****************************************!*\
-  !*** D:/项目/fuintUniapp/api/setting.js ***!
-  \****************************************/
+/*!*********************************************!*\
+  !*** D:/project/fuintUniapp/api/setting.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22273,9 +22273,9 @@ function storeDetail() {
 /***/ }),
 
 /***/ 99:
-/*!*************************************!*\
-  !*** D:/项目/fuintUniapp/api/page.js ***!
-  \*************************************/
+/*!******************************************!*\
+  !*** D:/project/fuintUniapp/api/page.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
