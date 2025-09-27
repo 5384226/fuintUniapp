@@ -102,11 +102,23 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  var m0 = _vm.storeBindInfo
+    ? _vm.getStatusText(_vm.storeBindInfo.status)
+    : null
+  var m1 = _vm.storeBindInfo
+    ? _vm.formatTime(_vm.storeBindInfo.create_time)
+    : null
+  var m2 = _vm.storeBindInfo
+    ? _vm.formatTime(_vm.storeBindInfo.update_time)
+    : null
   var g0 = _vm.list.length
   _vm.$mp.data = Object.assign(
     {},
     {
       $root: {
+        m0: m0,
+        m1: m1,
+        m2: m2,
         g0: g0,
       },
     }
@@ -152,8 +164,45 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var AddressApi = _interopRequireWildcard(__webpack_require__(/*! @/api/address */ 336));
+var StoreBindApi = _interopRequireWildcard(__webpack_require__(/*! @/api/storebind */ 1319));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -215,7 +264,11 @@ var _default = {
       // 正在加载
       isLoading: true,
       // 收货地址列表
-      list: []
+      list: [],
+      // 店铺绑定信息
+      storeBindInfo: null,
+      // 是否显示新增按钮
+      showAddButton: false
     };
   },
   /**
@@ -237,9 +290,11 @@ var _default = {
     getPageData: function getPageData() {
       var app = this;
       app.isLoading = true;
-      Promise.all([app.getAddressList()]).then(function () {
+      Promise.all([app.getAddressList(), app.getStoreBindInfo()]).then(function () {
         // 列表排序把默认收货地址放到最前
         app.onReorder();
+        // 根据绑定状态控制新增按钮显示
+        app.updateAddButtonVisibility();
       }).finally(function () {
         return app.isLoading = false;
       });
@@ -255,6 +310,61 @@ var _default = {
           return reject(err);
         });
       });
+    },
+    // 获取店铺绑定信息
+    getStoreBindInfo: function getStoreBindInfo() {
+      var app = this;
+      return new Promise(function (resolve, reject) {
+        StoreBindApi.getStore().then(function (result) {
+          console.log('店铺绑定信息:', result);
+          app.storeBindInfo = result.data;
+          resolve(result);
+        }).catch(function (err) {
+          console.error('获取店铺绑定信息失败:', err);
+          // 如果接口失败，设置默认值
+          app.storeBindInfo = {
+            user_id: null,
+            store_id: null,
+            store_name: '',
+            status: 0,
+            remark: '',
+            create_time: null,
+            update_time: null
+          };
+          reject(err);
+        });
+      });
+    },
+    // 根据绑定状态控制新增按钮显示
+    updateAddButtonVisibility: function updateAddButtonVisibility() {
+      var app = this;
+      // 根据业务逻辑判断是否显示新增按钮
+      // 这里假设只有已绑定店铺的用户才能添加地址
+      app.showAddButton = app.storeBindInfo && app.storeBindInfo.status == 2;
+      console.log('店铺绑定状态:', app.storeBindInfo);
+      console.log('是否显示新增按钮:', app.showAddButton);
+    },
+    // 获取状态文本
+    getStatusText: function getStatusText(status) {
+      var statusMap = {
+        0: '未绑定',
+        1: '待审核',
+        2: '已绑定',
+        3: '已拒绝'
+      };
+      return statusMap[status] || '未知状态';
+    },
+    // 格式化时间戳
+    formatTime: function formatTime(timestamp) {
+      if (!timestamp) return '未知';
+      var date = new Date(timestamp * 1000);
+      var year = date.getFullYear();
+      var month = String(date.getMonth() + 1).padStart(2, '0');
+      var day = String(date.getDate()).padStart(2, '0');
+      var hours = String(date.getHours()).padStart(2, '0');
+      var minutes = String(date.getMinutes()).padStart(2, '0');
+      var seconds = String(date.getSeconds()).padStart(2, '0');
+      return "".concat(year, "-").concat(month, "-").concat(day, " ").concat(hours, ":").concat(minutes, ":").concat(seconds);
     },
     // 列表排序把默认收货地址放到最前
     onReorder: function onReorder() {

@@ -540,6 +540,48 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ 1319:
+/*!******************************************!*\
+  !*** D:/项目/fuintUniapp/api/storebind.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.bindStore = bindStore;
+exports.getStore = getStore;
+exports.unbindStore = unbindStore;
+var _request = _interopRequireDefault(__webpack_require__(/*! @/utils/request */ 43));
+// api地址
+var api = {
+  getStore: "api/storebind/get_store",
+  bindStore: "api/storebind/bind_store",
+  unbindStore: "api/storebind/unbind_store"
+};
+
+// 获取店铺绑定信息
+function getStore() {
+  return _request.default.get(api.getStore);
+}
+
+// 绑定店铺
+function bindStore(data) {
+  return _request.default.post(api.bindStore, data);
+}
+
+// 解绑店铺
+function unbindStore(data) {
+  return _request.default.post(api.unbindStore, data);
+}
+
+/***/ }),
+
 /***/ 132:
 /*!*************************************!*\
   !*** D:/项目/fuintUniapp/api/user.js ***!
@@ -13493,10 +13535,10 @@ var $http = new _request.default({
   // 服务器本地上传文件地址
   fileUrl: baseURL,
   // 服务器上传图片默认url
-  defaultUploadUrl: 'clientApi/file/upload',
+  defaultUploadUrl: "clientApi/file/upload",
   // 设置请求头（如果使用报错跨域问题，可能是content-type请求类型和后台那边设置的不一致）
   header: {
-    'content-type': 'application/json;charset=utf-8'
+    "content-type": "application/json;charset=utf-8"
   },
   // 请求超时时间, 单位ms（默认300000）
   timeout: 300000,
@@ -13519,7 +13561,7 @@ $http.requestStart = function (options) {
     if (requestNum <= 0) {
       // 打开加载动画
       uni.showLoading({
-        title: '加载中',
+        title: "加载中",
         mask: true
       });
     }
@@ -13551,17 +13593,25 @@ $http.requestStart = function (options) {
     }
   }
   // 请求前加入当前终端
-  options.header['platform'] = _store.default.getters.platform ? String(_store.default.getters.platform) : '';
+  options.header["platform"] = _store.default.getters.platform ? String(_store.default.getters.platform) : "";
 
   // 请求前加入Token
-  options.header['Access-Token'] = _store.default.getters.token ? String(_store.default.getters.token) : '';
+  options.header["token"] = _store.default.getters.token ? String(_store.default.getters.token) : "";
   // 商户号
-  options.header['merchantNo'] = uni.getStorageSync("merchantNo") ? uni.getStorageSync("merchantNo") : merchantNo;
-  // 店铺ID
-  options.header['storeId'] = uni.getStorageSync("storeId") ? uni.getStorageSync("storeId") : 0;
-  options.header['latitude'] = uni.getStorageSync("latitude") ? uni.getStorageSync("latitude") : '';
-  options.header['longitude'] = uni.getStorageSync("longitude") ? uni.getStorageSync("longitude") : '';
-  options.header['isWechat'] = (0, _app.isWechat)() ? 'Y' : 'N';
+  // options.header["merchantNo"] = uni.getStorageSync("merchantNo")
+  //   ? uni.getStorageSync("merchantNo")
+  //   : merchantNo;
+  // // 店铺ID
+  // options.header["storeId"] = uni.getStorageSync("storeId")
+  //   ? uni.getStorageSync("storeId")
+  //   : 0;
+  // options.header["latitude"] = uni.getStorageSync("latitude")
+  //   ? uni.getStorageSync("latitude")
+  //   : "";
+  // options.header["longitude"] = uni.getStorageSync("longitude")
+  //   ? uni.getStorageSync("longitude")
+  //   : "";
+  // options.header["isWechat"] = isWechat() ? "Y" : "N";
   // return false 表示请求拦截，不会继续请求
   return options;
 };
@@ -13596,7 +13646,7 @@ $http.dataFactory = /*#__PURE__*/function () {
             return _context.abrupt("return", Promise.reject({
               statusCode: res.response.statusCode,
               // errMsg: "数据工厂验证不通过"
-              errMsg: 'http状态码错误'
+              errMsg: "http状态码错误"
             }));
           case 2:
             httpData = res.response.data;
@@ -13607,7 +13657,7 @@ $http.dataFactory = /*#__PURE__*/function () {
                 httpData = false;
               }
             }
-            if (!(httpData === false || (0, _typeof2.default)(httpData) !== 'object')) {
+            if (!(httpData === false || (0, _typeof2.default)(httpData) !== "object")) {
               _context.next = 6;
               break;
             }
@@ -13621,13 +13671,13 @@ $http.dataFactory = /*#__PURE__*/function () {
               break;
             }
             // 1001也有可能是后端登录态到期, 所以要清空本地的登录状态
-            _store.default.dispatch('Logout');
+            _store.default.dispatch("Logout");
             // 弹窗告诉用户去登录
             if (loginPopupNum <= 0) {
               loginPopupNum++;
               uni.showModal({
-                title: '温馨提示',
-                content: '此时此刻需要您登录喔~',
+                title: "温馨提示",
+                content: "此时此刻需要您登录喔~",
                 confirmText: "去登录",
                 cancelText: "再逛会",
                 success: function success(res) {

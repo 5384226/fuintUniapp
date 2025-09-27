@@ -96,7 +96,7 @@ export default {
 
         console.log('授权登录结果:', result);
         console.log('返回的token:', result.data?.token);
-        console.log('返回的userId:', result.data?.userId);
+        console.log('返回的用户ID:', result.data?.id);
 
         if (result.code === 200) {
           // 登录成功

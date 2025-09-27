@@ -25,6 +25,39 @@
 /* 透明度 */
 /* 文章场景相关 */
 /* 引入uView全局scss变量文件 */
+.store-bind-status.data-v-5f170bce {
+  margin: 20rpx;
+  padding: 30rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 1rpx 5rpx 0px rgba(0, 0, 0, 0.05);
+}
+.store-bind-status .status-item.data-v-5f170bce {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+}
+.store-bind-status .status-item.data-v-5f170bce:last-child {
+  margin-bottom: 0;
+}
+.store-bind-status .status-item .label.data-v-5f170bce {
+  color: #666;
+  margin-right: 10rpx;
+  min-width: 120rpx;
+}
+.store-bind-status .status-item .value.data-v-5f170bce {
+  color: #333;
+  flex: 1;
+}
+.store-bind-status .status-item .value.status-bound.data-v-5f170bce {
+  color: #52c41a;
+  font-weight: bold;
+}
+.store-bind-status .status-item .value.status-unbound.data-v-5f170bce {
+  color: #ff4d4f;
+  font-weight: bold;
+}
 .addres-list.data-v-5f170bce {
   padding-bottom: 120rpx;
 }

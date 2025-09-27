@@ -243,7 +243,7 @@ var _default = {
                 result = _context.sent;
                 console.log('授权登录结果:', result);
                 console.log('返回的token:', (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.token);
-                console.log('返回的userId:', (_result$data2 = result.data) === null || _result$data2 === void 0 ? void 0 : _result$data2.userId);
+                console.log('返回的用户ID:', (_result$data2 = result.data) === null || _result$data2 === void 0 ? void 0 : _result$data2.id);
                 if (result.code === 200) {
                   // 登录成功
                   app.$toast(result.message || '登录成功');
