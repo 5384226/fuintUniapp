@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "number-box": "/components/prestore-popup/number-box/index"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "领券中心",
-  "usingComponents": {
-    "mescroll-body": "/components/mescroll-uni/mescroll-body",
-    "search": "/components/search/index"
-  }
-}

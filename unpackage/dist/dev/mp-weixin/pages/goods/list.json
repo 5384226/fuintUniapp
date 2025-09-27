@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "商品列表",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "mescroll-body": "/components/mescroll-uni/mescroll-body",
-    "search": "/components/search/index"
-  }
-}

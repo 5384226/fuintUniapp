@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "积分明细",
-  "usingComponents": {
-    "mescroll-body": "/components/mescroll-uni/mescroll-body",
-    "empty": "/components/empty/index"
-  }
-}

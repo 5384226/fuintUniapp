@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "购买储值卡",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "jyf-parser": "/components/jyf-parser/jyf-parser",
-    "shortcut": "/components/shortcut/index",
-    "popup": "/pages/prestore/components/Popup"
-  }
-}

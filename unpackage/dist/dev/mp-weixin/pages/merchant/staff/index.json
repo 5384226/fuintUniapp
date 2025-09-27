@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "员工管理",
-  "usingComponents": {
-    "mescroll-body": "/components/mescroll-uni/mescroll-body"
-  }
-}

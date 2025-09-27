@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "支付结果",
-  "usingComponents": {
-    "goods": "/components/page/goods/index"
-  }
-}

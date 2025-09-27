@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "grade-popup": "/components/grade-popup/index"
-  }
-}
