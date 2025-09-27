@@ -1,0 +1,247 @@
+
+page {
+  background: #fafafa;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 引入uView全局scss变量文件 */
+.container.data-v-dcaad8e4 {
+  padding-bottom: 112rpx;
+}
+/* 卡券信息 */
+.coupon-info.data-v-dcaad8e4 {
+  background: #fff;
+  padding: 25rpx 30rpx;
+}
+.info-item__top.data-v-dcaad8e4 {
+  min-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+.info-item__top .active-tag.data-v-dcaad8e4 {
+  width: 108rpx;
+  color: #fff;
+  background: #fe293f;
+  padding: 3rpx 5rpx;
+  border-radius: 15rpx;
+  font-size: 24rpx;
+  text-align: center;
+  margin-right: 15rpx;
+}
+.floor-price__samll.data-v-dcaad8e4 {
+  font-size: 26rpx;
+  line-height: 1;
+  color: #FA2209;
+}
+/* 金额 */
+.floor-price.data-v-dcaad8e4 {
+  color: #FA2209;
+  margin-right: 15rpx;
+  font-size: 38rpx;
+  line-height: 1;
+  margin-bottom: -2rpx;
+}
+.original-price.data-v-dcaad8e4 {
+  font-size: 24rpx;
+  line-height: 1;
+  text-decoration: line-through;
+  color: #959595;
+}
+.coupon-sales.data-v-dcaad8e4 {
+  font-size: 24rpx;
+  color: #959595;
+}
+.info-item.data-v-dcaad8e4 {
+  font-size: 24rpx;
+  margin-bottom: 15rpx;
+  color: #666666;
+}
+.info-item .number.data-v-dcaad8e4 {
+  color: #f9211c;
+  font-weight: bold;
+}
+.store-rule.data-v-dcaad8e4 {
+  color: #666666;
+  font-size: 28rpx;
+  padding: 30rpx;
+  border: #cccccc dashed 5rpx;
+  border-radius: 5rpx;
+  margin-bottom: 20rpx;
+}
+.store-rule .title.data-v-dcaad8e4 {
+  color: #666666;
+  font-weight: bold;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.store-rule .item.data-v-dcaad8e4 {
+  margin-bottom: 0px;
+  height: 60rpx;
+  padding-top: 15rpx;
+  font-weight: bold;
+}
+.info-item__name .coupon-name.data-v-dcaad8e4 {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  color: #666666;
+}
+/* 商品分享 */
+.coupon-share__line.data-v-dcaad8e4 {
+  border-left: 1rpx solid #f4f4f4;
+  height: 60rpx;
+  margin: 0 30rpx;
+}
+.coupon-share .share-btn.data-v-dcaad8e4 {
+  line-height: normal;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 8pt;
+  border: none;
+  color: #191919;
+}
+.coupon-share .share-btn.data-v-dcaad8e4::after {
+  border: none;
+}
+.coupon-share .share__icon.data-v-dcaad8e4 {
+  font-size: 40rpx;
+  margin-bottom: 5rpx;
+}
+/* 卖点 */
+.info-item_selling-point.data-v-dcaad8e4 {
+  margin-top: 8rpx;
+  font-size: 24rpx;
+  color: #808080;
+}
+.coupon-choice.data-v-dcaad8e4 {
+  padding: 26rpx 30rpx;
+  font-size: 28rpx;
+}
+.coupon-choice .spec-list.data-v-dcaad8e4 {
+  display: flex;
+  align-items: center;
+}
+.coupon-choice .spec-list .spec-name.data-v-dcaad8e4 {
+  margin-right: 10rpx;
+}
+/* 卡券详情 */
+.coupon-content .item-title.data-v-dcaad8e4 {
+  padding: 26rpx 30rpx;
+  font-size: 28rpx;
+}
+.coupon-content .coupon-content-detail.data-v-dcaad8e4 {
+  padding: 0rpx 25rpx 25rpx 25rpx;
+}
+.foo-item-fast.data-v-dcaad8e4 {
+  box-sizing: border-box;
+  width: 100rpx;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foo-item-fast .fast-item.data-v-dcaad8e4 {
+  position: relative;
+  padding: 4rpx 10rpx;
+  line-height: 1;
+}
+.foo-item-fast .fast-item .fast-icon.data-v-dcaad8e4 {
+  margin-bottom: 6rpx;
+}
+.foo-item-fast .fast-item .fast-badge.data-v-dcaad8e4 {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 16px;
+  padding: 0 3px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: -apple-system-font, Helvetica Neue, Arial, sans-serif;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #ee0a24;
+  border: 1px solid #fff;
+  border-radius: 999px;
+}
+.foo-item-fast .fast-item .fast-badge--fixed.data-v-dcaad8e4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+}
+.foo-item-fast .fast-item .fast-icon.data-v-dcaad8e4 {
+  font-size: 46rpx;
+}
+.foo-item-fast .fast-item .fast-text.data-v-dcaad8e4 {
+  font-size: 24rpx;
+}
+/* 底部操作栏 */
+.footer-fixed.data-v-dcaad8e4 {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 180rpx;
+  z-index: 11;
+  box-shadow: 0 -4rpx 40rpx 0 rgba(144, 52, 52, 0.1);
+  background: #fff;
+}
+.footer-container.data-v-dcaad8e4 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.foo-item-btn.data-v-dcaad8e4 {
+  flex: 1;
+}
+.foo-item-btn .btn-wrapper.data-v-dcaad8e4 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.foo-item-btn .btn-item.data-v-dcaad8e4 {
+  flex: 1;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-right: 16rpx;
+  margin-left: 16rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 40rpx;
+}
+.foo-item-btn .btn-item-main.data-v-dcaad8e4 {
+  background: linear-gradient(to right, #f9211c, #ff6335);
+}
+.foo-item-btn .btn-item-deputy.data-v-dcaad8e4 {
+  background: linear-gradient(to right, #ffa600, #ffbb00);
+}
+

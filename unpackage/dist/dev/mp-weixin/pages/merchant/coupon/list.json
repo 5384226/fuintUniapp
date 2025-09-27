@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "卡券管理",
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "search": "/components/search/index"
+  }
+}
